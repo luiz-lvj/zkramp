@@ -1,7 +1,7 @@
 #[starknet::component]
 pub mod RegistryComponent {
     use core::num::traits::Zero;
-use starknet::storage::Map;
+    use starknet::storage::Map;
     use starknet::{ContractAddress, get_caller_address};
     use zkramp::components::registry::interface::OffchainId;
     use zkramp::components::registry::interface;
